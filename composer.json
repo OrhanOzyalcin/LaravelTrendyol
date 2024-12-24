@@ -8,9 +8,9 @@
     "illuminate/support": "*"
   },
   "autoload": {
-    "psr-4": {
-      "orhanozyalcin\\TrendyolIntegration\\": "src/"
-    }
+      "psr-4": {
+          "orhanozyalcin\\TrendyolIntegration\\": "src/"
+      }
   },
   "license": "MIT",
   "authors": [
