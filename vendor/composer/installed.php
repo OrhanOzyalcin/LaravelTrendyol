@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'orhanozyalcin/laravel-trendyol-integration',
+        'name' => 'OrhanOzyalcin/laravel-trendyol-integration',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => '9237cd993ee8ba57c56e3aeb66054d95288d58ad',
@@ -109,7 +109,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'orhanozyalcin/laravel-trendyol-integration' => array(
+        'OrhanOzyalcin/laravel-trendyol-integration' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'reference' => '9237cd993ee8ba57c56e3aeb66054d95288d58ad',

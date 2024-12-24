@@ -27,7 +27,7 @@ class ComposerStaticInit963f088eb58d4c03755d1136b244de30
         ),
         'o' => 
         array (
-            'orhanozyalcin\\TrendyolIntegration\\' => 34,
+            'OrhanOzyalcin\\TrendyolIntegration\\' => 34,
         ),
         'S' => 
         array (
@@ -72,7 +72,7 @@ class ComposerStaticInit963f088eb58d4c03755d1136b244de30
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
         ),
-        'orhanozyalcin\\TrendyolIntegration\\' => 
+        'OrhanOzyalcin\\TrendyolIntegration\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

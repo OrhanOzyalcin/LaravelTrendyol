@@ -9,22 +9,22 @@
   },
   "autoload": {
       "psr-4": {
-          "orhanozyalcin\\TrendyolIntegration\\": "src/"
+          "OrhanOzyalcin\\TrendyolIntegration\\": "src/"
       }
   },
   "license": "MIT",
   "authors": [
-      {
-          "name": "Orhan Özyalçın",
-          "email": "orhanozyalcin@icloud.com"
-      }
+    {
+      "name": "Orhan Özyalçın",
+      "email": "OrhanOzyalcin@icloud.com"
+    }
   ],
   "extra": {
-    "laravel": {
-      "providers": [
-        "orhanozyalcin\\TrendyolIntegration\\TrendyolIntegrationServiceProvider"
-      ]
-    }
+      "laravel": {
+          "providers": [
+              "OrhanOzyalcin\\TrendyolIntegration\\TrendyolIntegrationServiceProvider"
+          ]
+      }
   },
   "minimum-stability": "stable",
   "prefer-stable": true

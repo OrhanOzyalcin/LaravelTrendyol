@@ -1,8 +1,8 @@
 <?php
 
-namespace orhanozyalcin\TrendyolIntegration\Services;
+namespace OrhanOzyalcin\TrendyolIntegration\Services;
 
-use orhanozyalcin\TrendyolIntegration\TrendyolClient;
+use OrhanOzyalcin\TrendyolIntegration\TrendyolClient;
 
 class CargoService
 {

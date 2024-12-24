@@ -1,6 +1,6 @@
 <?php
 
-namespace orhanozyalcin\TrendyolIntegration;
+namespace OrhanOzyalcin\TrendyolIntegration;
 
 use GuzzleHttp\Client;
 
