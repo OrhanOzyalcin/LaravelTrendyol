@@ -1,0 +1,31 @@
+{
+  "name": "orhanozyalcin/laravel-trendyol-integration",
+  "description": "Trendyol API Integration for Laravel",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "illuminate/support": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "orhanozyalcin\\TrendyolIntegration\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Orhan Özyalçın",
+          "email": "orhanozyalcin@icloud.com"
+      }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "orhanozyalcin\\TrendyolIntegration\\TrendyolIntegrationServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
