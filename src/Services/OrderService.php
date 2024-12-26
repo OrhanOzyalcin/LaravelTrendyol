@@ -16,7 +16,7 @@ class OrderService
     /**
      * Siparişleri Listeleme
      */
-    public function getOrders(string $supplierId, string $orderByField = 'PackageLastModifiedDate', string $orderByDirection = 'DESC', int $size = 50)
+    public function getOrders(string $supplierId, string $orderByField = 'PackageLastModifiedDate', string $orderByDirection = 'ASC', int $size = 200)
     {
         return $this->client->request('GET', "/suppliers/{$supplierId}/orders", [
             'orderByField' => $orderByField,

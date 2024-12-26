@@ -11,11 +11,13 @@ class TrendyolIntegrationServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(TrendyolClient::class, function ($app) {
+            $config = $app['config']['trendyol'] ?? [];
+
             return new TrendyolClient([
-                'base_uri' => config('trendyol.base_url'),
+                'base_uri' => $config['base_url'] ?? '',
                 'auth' => [
-                    config('trendyol.username'),
-                    config('trendyol.password'),
+                    $config['username'] ?? '',
+                    $config['password'] ?? '',
                 ],
             ]);
         });
@@ -27,6 +29,9 @@ class TrendyolIntegrationServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        // Paketinizin bootstrap işlemleri
+        // Dinamik yapılandırmayı buraya taşıyabilirsiniz
+        $this->publishes([
+            __DIR__ . '/../config/trendyol.php' => config_path('trendyol.php'),
+        ]);
     }
 }
